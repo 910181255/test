@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>烏衣巷</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- 鏈接外部樣式表 -->
+</head>
+
+<body>
+    <h1 id="poem-title">烏衣巷</h1>
+    <li><a href="https://fanti.dugushici.com/ancient_proses/18745">烏衣巷</a></li>
+    <div id="poem-content">
+        <p>朱雀橋邊野草花，烏衣巷口夕陽斜。
+           舊時王謝堂前燕，飛入尋常百姓家。</p>
+    </div>
+</body>
+</html>

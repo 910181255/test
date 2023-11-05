@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<title>ch6-2-2二欄式版面(fixed-fluid)</title>
+<meta charset="utf-8">
+<style>
+    *{
+        font-size: 40px;
+    }
+    #header{
+        height: 100px;
+        background-color: red;
+    }
+    #wrapper{
+        float:left;
+        width:100%;
+    }
+    #main{
+        margin-left: 180px;
+        background-color: green;
+    }
+    #side{
+        float:left;
+        width:180px;
+        margin-left:-100%;
+        background-color: blue;
+    }
+    #footer{
+        clear:both;
+        height: 100px;
+        background-color: yellow;
+    }
+</style>
+</head>
+<body>
+    <div id="header">學號: 91018125 黎秉政</div>
+    <div id="wrapper">
+            <div id="main">詩的賞析</div>
+            <a href="poem1.html"> 將進酒</a>
+            <a href="poem2.html"> 烏衣巷</a>
+            </div>
+            <ul>
+                <li><a href="bdata.html">我的基本資料</a></li>
+                <li><a href="skill.html">我的專長</a></li> 
+            </ul>這裡是main</div>
+
+    </div>
+    <div id="side">這裡是side，這裡是side，這裡是side</div>
+    <div id="footer">這裡是footer</div>
+</body>
+</html>
